@@ -1,6 +1,7 @@
 
+
 //? Loading page Spinner
-/*$(window).on('load', function(){
+$(window).on('load', function(){
     
     $(".loading-page .sk-cube-grid").fadeOut(2000,function(){
 
@@ -12,10 +13,15 @@
 
     });
   }); 
-});*/
+});
 
 $(document).ready(function () {
-    
+
+    //? Wow Js 
+
+    new WOW().init();
+
+
     //! Burger Menu
     $(".burger-Menu").click(function(){
 
